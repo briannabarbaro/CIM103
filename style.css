@@ -1,0 +1,85 @@
+/* Custom Fonts */
+body {
+    font-family: 'Barlow', sans-serif;
+    background-color: #111;
+    color: #eee;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Styling */
+nav {
+    background-color: #222;
+    padding: 15px;
+    text-align: center;
+}
+
+.nav-container a {
+    color: #ff6600;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.nav-container a:hover {
+    color: #ffcc00;
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    padding: 50px 0;
+    background: linear-gradient(180deg, #1a1a1a, #333);
+}
+
+h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 3rem;
+    color: #ff6600;
+}
+
+h2, h3 {
+    color: #ff6600;
+    font-family: 'Orbitron', sans-serif;
+}
+
+p, ol, ul {
+    color: #ccc;
+    line-height: 1.6;
+}
+
+/* Grid Image Gallery */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Class for Text Blocks */
+.text-block {
+    background-color: #333;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #222;
+    padding: 10px 0;
+    text-align: center;
+    color: #888;
+    font-size: 0.9rem;
+}
+
+/* New CSS Property - backdrop-filter */
+#explore {
+    backdrop-filter: blur(10px); /* Adding a blur effect to the explore section background */
+}
